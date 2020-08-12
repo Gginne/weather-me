@@ -1,5 +1,5 @@
 # Weather Me
-Weather application builr on React, Gatsby, Materialize, and Sass
+Weather application built on React, Gatsby, Materialize, and Sass
 
 The dependencies can be easily installed, preferably with **yarn install**.
 
