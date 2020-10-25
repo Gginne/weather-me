@@ -1,5 +1,5 @@
 require('dotenv').config()
-const API_KEY = process.env.API_KEY || 
+const API_KEY = process.env.API_KEY 
 
 //GET API data of current weather
 async function getCurrentWeather(lat, lon) {
