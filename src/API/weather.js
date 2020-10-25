@@ -1,4 +1,4 @@
-require('dotenv').config()
+
 const API_KEY = process.env.API_KEY 
 
 //GET API data of current weather
