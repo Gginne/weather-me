@@ -3,20 +3,20 @@ const API_KEY = process.env.GATSBY_API_KEY
 
 //GET API data of current weather
 async function getCurrentWeather(lat, lon) {
-    let res = await fetch(`http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}`)
+    let res = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}`)
     let data = await res.json()
     return data
 }
 //GET API data of searched weather
 async function getWeatherSearch(city) {
-    let res = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}`)
+    let res = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}`)
     let data = await res.json()
     return data
 }
 
 //GET API data of weather forecast
 async function getWeatherForecast(lat, lon) {
-    let res = await fetch(`http://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${API_KEY}`)
+    let res = await fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${API_KEY}`)
     let data = await res.json()
     return data
 }
