@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "dotenv": "^8.2.0",
-    "gatsby": "^2.18.12",
+    "gatsby": "^4.25.7",
     "gatsby-plugin-sass": "^2.1.27",
     "materialize-css": "^1.0.0-rc.2",
     "node-sass": "^4.13.1",
